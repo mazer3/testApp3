@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('testApp3App', []);
+  .module('testApp3', []);
 var PhoneGapInit = function () {
   this.boot = function () {
     angular.bootstrap(document, ['testApp3']);
